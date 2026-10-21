@@ -1,0 +1,45 @@
+{
+  "_comment": "Copy to config/config.json, edit, and set CONFIG_FILE=config/config.json. Every key is optional; omitted keys keep their defaults. Unknown keys are rejected.",
+  "ai_resource_hints": [
+    "openai",
+    "cognitive services",
+    "azure ai",
+    "machine learning",
+    "foundry"
+  ],
+  "agent_name_pattern": "(agent|bot|copilot|assistant|gpt|llm|openai|\\brag\\b|\\bai[-_ ]|[-_ ]ai\\b)",
+  "agent_creator_app_ids": [],
+  "mcp_server_app_ids": [],
+  "mcp_server_resource_names": [],
+  "ai_gateway_app_ids": [],
+  "ai_gateway_resource_names": [],
+  "confirmed_agent_tags": [
+    "AgentCreatedBy:CopilotStudio",
+    "power-virtual-agents-*"
+  ],
+  "bot_framework_redirect_hosts": [
+    "token.botframework.com"
+  ],
+  "likelihood_weights": {
+    "created_by_agent_platform": 3,
+    "connects_to_mcp": 3,
+    "ai_resource_access": 3,
+    "uses_ai_gateway": 3,
+    "agent_like_name": 2,
+    "agent_marker": 2,
+    "bot_framework_redirect": 2,
+    "high_volume": 1,
+    "multi_resource": 1,
+    "federated_credential": 1
+  },
+  "likely_threshold": 6,
+  "review_unlikely_signals": [
+    "agent_like_name"
+  ],
+  "high_volume_daily_signins": 50,
+  "multi_resource_daily": 3,
+  "credential_expiry_warning_days": 30,
+  "assess_max_principals": 25,
+  "agent_list_scan_limit": 5000,
+  "cutover_max_failure_rate": 0.02
+}
