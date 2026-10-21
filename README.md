@@ -337,8 +337,7 @@ Both MCP Python SDK 1.x (`FastMCP`) and 2.x (`MCPServer`) are supported.
 
 ## Authorship
 
-Designed and directed by Mustafa Hassan; implemented with AI coding assistants (Claude,
-GitHub Copilot) under his review.
+Designed and directed by Mustafa Hassan; implemented with AI coding assistants under his review.
 
 ## Licence
 
