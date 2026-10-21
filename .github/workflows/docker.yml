@@ -26,9 +26,13 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository }}
           tags: |
+            # release v1.0.0 -> 1.0.0, 1 and latest
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}
             type=raw,value=latest,enable=${{ github.event_name == 'release' }}
+            # manual run -> branch name (e.g. main) and short commit (sha-1a2b3c4)
+            type=ref,event=branch
+            type=sha
           labels: |
             org.opencontainers.image.licenses=Apache-2.0
 
