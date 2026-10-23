@@ -335,6 +335,9 @@ reaches the server has every tool.
 
 Both MCP Python SDK 1.x (`FastMCP`) and 2.x (`MCPServer`) are supported.
 
+## No warranty/limitation of liability
+This software is provided "as is" without warranties or conditions of any kind, either express or implied. I am (Mustafa Hassan) not liable for any damages that result from use, misuse, or misconfiguration of this software.
+
 ## Authorship
 
 Designed and directed by Mustafa Hassan; implemented with AI coding assistants under his review.
